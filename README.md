@@ -4,7 +4,7 @@
 
 
 
-Add Refrence
+Requirements
 ------
 Step 1. Add Refrence to Head of document
 ```
@@ -14,7 +14,7 @@ Step 1. Add Refrence to Head of document
 
 Usage
 ------
-Step 1. Add This To Html Body
+Step 2. Add This To Html Body
 ```
 
 	<!--Card Number Input-->
@@ -32,7 +32,7 @@ Step 1. Add This To Html Body
 
 ```
 
-Step 1. Add To End of Html Body
+Step 3. Add To End of Html Body
 ```
      <script>
         RegisterBankCardValidator("CardNumber", "bankLogo", "lblBankName","Validation");
