@@ -7,8 +7,8 @@
 Requirements
 ------
 Step 1. Add Refrence to Head of document
-```
-    <script src="Js/IrBankValidator.js"></script>
+```js
+<script src="Js/IrBankValidator.js"></script>
 ```
 
 
