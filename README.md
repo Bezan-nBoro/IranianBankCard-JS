@@ -15,34 +15,26 @@ Step 1. Add Refrence to Head of document
 Usage
 ------
 Step 2. Add This To Html Body
-```
+```js
+<!--Card Number Input-->
+<input type="tel" id="CardNumber" /> 
 
-	<!--Card Number Input-->
-    <input type="tel" id="CardNumber" /> 
-	
-	<!--Bank Name Lable-->
-    <label id="lblBankName"></label>
-	
-	<!--Bank Logo Image-->
-    <img id="bankLogo" />
-	
-	<!--Validation Message-->
-    <span id="Validation"></span>
-	
+<!--Bank Name Lable-->
+<label id="lblBankName"></label>
 
+<!--Bank Logo Image-->
+<img id="bankLogo" />
+
+<!--Validation Message-->
+<span id="Validation"></span>
 ```
 
 Step 3. Add To End of Html Body
+```js
+<script>
+	RegisterBankCardValidator("CardNumber", "bankLogo", "lblBankName","Validation");
+</script>
 ```
-     <script>
-        RegisterBankCardValidator("CardNumber", "bankLogo", "lblBankName","Validation");
-    </script>
-
-```
-
-
-
-
 
 ## Are you a developer?
 > 1-Fork it!</br>
