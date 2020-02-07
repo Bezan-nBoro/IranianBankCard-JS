@@ -31,7 +31,7 @@ Step 2. Add This To Html Body
 
 Step 3. Add To End of Html Body
 ```js
-<script>
+<script type="text/javascript">
 	RegisterBankCardValidator("CardNumber", "bankLogo", "lblBankName","Validation");
 </script>
 ```
