@@ -82,6 +82,8 @@ Banks.push(new Bank("628157", "موسسه اعتباری توسعه", "moasseseh
 
 Banks.push(new Bank("505801", "موسسه اعتباری کوثر", "moasseseh_kosar"));
 
+Banks.push(new Bank("636214", "بانک آینده", "bank_ayandeh"));
+
 var imageEl, txtCard, bankName, validation;
 
 function RegisterBankCardValidator(txtCardNumber, image, lblBankName, vldtn) {
