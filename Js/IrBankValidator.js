@@ -1,4 +1,5 @@
-﻿class Bank {
+<script src="Js/IrBankValidator.js"></script>
+class Bank {
     constructor(sCode, bankTitle, imageName) {
         this.SCode = sCode;
         this.BankTitle = bankTitle;
